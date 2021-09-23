@@ -1,6 +1,7 @@
 {
     "name": "mess",
     "description": "Deploy uvuicu with mess.",
+    "keywords": ["V2Ray"],
     "env": {
         "ID": {
             "description": "UUID",
