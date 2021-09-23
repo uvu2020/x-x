@@ -1,21 +1,17 @@
 {
-    "name": "mess",
-    "description": "Deploy uvuicu with mess.",
+    "name": "less",
+    "description": "Deploy uvuicu with less.",
     "env": {
         "ID": {
             "description": "UUID",
-            "value": "6f225a19-1a88-4666-bc45-edf0e0bac4fc"
-        },
-        "AID": {
-            "description": "AlterID",
-            "value": "64"
+            "value": "09640332-273a-4103-bce0-1b1082a171da"
         },
         "WSPATH": {
             "description": "WebSocket Path",
-            "value": "/uvuicu/wsmess"
+            "value": "/uvuicu/wsless"
         }
     },
     "website": "https://github.com/uvu2020/uvuicu",
-    "repository": "https://github.com/uvu2020/uvuicu/tree/mess",
+    "repository": "https://github.com/uvu2020/uvuicu/tree/less",
     "stack": "container"
 }

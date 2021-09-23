@@ -1,8 +1,8 @@
 FROM alpine:latest
 
-ADD mess.sh /opt/mess.sh
+ADD less.sh /opt/less.sh
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
- && chmod +x /opt/mess.sh
+ && chmod +x /opt/less.sh
 
-ENTRYPOINT ["sh", "-c", "/opt/mess.sh"]
+ENTRYPOINT ["sh", "-c", "/opt/less.sh"]
