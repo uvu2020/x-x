@@ -1,7 +1,6 @@
 {
     "name": "less",
     "description": "Deploy uvuicu with less.",
-	"keywords": ["V2Ray"],
     "env": {
         "ID": {
             "description": "UUID",
