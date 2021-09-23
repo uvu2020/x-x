@@ -1,7 +1,6 @@
 {
     "name": "mess",
     "description": "Deploy uvuicu with mess.",
-    "keywords": ["V2Ray"],
     "env": {
         "ID": {
             "description": "UUID",
@@ -13,7 +12,7 @@
         },
         "WSPATH": {
             "description": "WebSocket Path",
-            "value": "/uvuicu/wsmess"
+            "value": "/"
         }
     },
     "website": "https://github.com/uvu2020/uvuicu",
