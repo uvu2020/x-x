@@ -9,7 +9,7 @@
         },
         "WSPATH": {
             "description": "WebSocket Path",
-            "value": "/uvuicu/wsless"
+            "value": "/"
         }
     },
     "website": "https://github.com/uvu2020/uvuicu",
