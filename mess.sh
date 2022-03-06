@@ -12,20 +12,40 @@ cat << EOF > ${DIR_TMP}/heroku.json
         "port": ${PORT},
         "protocol": "vmess",
         "settings": {
-            "clients": [{
-                "id": "${ID}",
-                "alterId": ${AID}
-            }]
-        },
-        "streamSettings": {
-            "network": "ws",
-            "wsSettings": {
-                "path": "${WSPATH}",
-                "headers": {    
-                    "Host": [ "gd.189.cn", "sc.189.cn", "wapsc.189.cn", "wap.sc.189.cn", "a.189.cn", "amdc.alipay.com" ]
+            "clients": [
+          {
+              "id": "425aac73-b6c8-4620-938c-4acdc57914bd",
+              "alterId": 0,
+              "security": "auto"
+          }
+      ]
+    },
+    "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+            "header":{
+                "type": "http",
+                "response": {
+                   "version": "1.1",
+                   "status": "200",
+                   "reason": "OK",
+                   "headers": {
+                       "Host": [
+                           "sc.189.cn",
+                           "wapsc.189.cn",
+                           "wap.sc.189.cn",
+                           "a.189.cn",
+                           "amdc.alipay.com"
+                       ],
+                       "Content-Type": [ "application/octet-stream", "application/x-msdownload", "text/html", "application/x-shockwave-flash" ],
+                       "Transfer-Encoding": ["chunked"],
+                       "Connection": [ "keep-alive" ],
+                       "Pragma": "no-cache"
+                   }
                 }
             }
         }
+    }
     }],
     "outbounds": [{
         "protocol": "freedom"
