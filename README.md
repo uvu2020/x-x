@@ -1,6 +1,6 @@
 # UvuIcu - Mess
 
-**若需部署 LESS，请转到 [less](https://github.com/uvu2020/uvuicu/tree/less) 分支。**
+**若需部署 LESS，请转到 [less](https://github.com/uvu2020/x-x/tree/less) 分支。**
 
 ## 概述
 
@@ -10,4 +10,4 @@
 
 ## 部署
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/uvu2020/uvuicu/tree/mess)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/uvu2020/x-x/tree/mess)
